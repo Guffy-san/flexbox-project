@@ -1,0 +1,214 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+    padding: 0;
+}
+html,
+body {
+	height: 100%;
+    /* if you want 1rem = 10px, easier for calculations */
+    /* font-size: 62.5%; */ 
+    font-family: sans-serif;
+}
+body {
+	/* line-height: 1.5; */
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+
+.container1{
+    background: #1f2937;
+    height: 40%;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 10%;
+    align-items: center;
+}
+.header-logo{
+    font-size: 24px;
+    padding-top: 1rem;
+}
+.hero{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap:14px;
+    height: 70%;
+    
+}
+.daba1{
+    width: 400px;
+    height: 150px;
+    color: grey;
+    padding: 10px;
+
+}
+.daba2{
+    background: grey;
+    width: 400px;
+    height: 150px;
+    color: whitesmoke; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-links{
+    display: flex;
+    gap: 10px;
+}
+.text{
+    height: 50%;
+    width: 80%;
+}
+
+
+.title{
+    font-size: 24px ;
+    font-weight: bolder;
+    color: #F9FAF8;
+    height: 40%;
+    width: 50%;
+    
+}
+button{
+    color: white;
+    background: rgb(32, 127, 242);
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.container2{
+    background: lightgrey;
+    height: 35%;
+    display: flex;
+    align-items: center;
+}
+.imagedabba{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    height: 90%;
+    width: 100%;
+}
+img{
+    height: 160px;
+    width: 160px;
+}
+.img{
+    border-radius: 14px;
+    border: 2px solid blue;
+    padding: 8px;
+    font-weight: 50;
+    
+}
+.title2{
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.textlast{
+    height: 100%;
+    width: 90%;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.quote{
+    width: 60%;
+    height: fit-content;
+    font-size: x-large;
+    padding: 150px;
+    
+}
+.said{
+    font-size:60% ;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.container3{
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.masala{
+    display: flex;
+    background: rgb(32, 127, 242);
+    height: 50%;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    gap: 100px;
+    
+}
+.content{
+    color: white;
+    ;
+}
+.yes{
+    font-weight: bolder;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #1f2937;
+    height: 5%;
+}
